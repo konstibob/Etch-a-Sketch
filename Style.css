@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: grey;
+}
+
+.title{
+    text-align: center;
+
+}
+
+#squarespace{
+    
+    line-height: 0;
+    text-align: center;
+}
+
+.square { 
+    display:inline-block;
+    border: 2px solid black;
+    width: 40px;
+    height: 40px;
+}
