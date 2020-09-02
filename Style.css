@@ -31,7 +31,7 @@
 
 #squarespace > div{
     display:inline-block;
-    border: 3px solid black;
+    border: 1px solid black;
     width: var(--squareSize);
     height: var(--squareSize);
 }
