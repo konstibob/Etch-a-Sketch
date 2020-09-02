@@ -1,24 +1,38 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+}
+
+.background{
     background-color: grey;
 }
 
+
+:root{
+    --rowNum: 16;
+    --colNum: 16;
+    --squareSize: 40px;
+}
 .title{
     text-align: center;
+}
 
+.centerBOI{
+    text-align: center;
 }
 
 #squarespace{
     
-    line-height: 0;
-    text-align: center;
+    display: grid;
+    grid-template-rows:repeat(var(--rowNum),var(--squareSize)); 
+    grid-template-columns:repeat(var(--colNum),var(--squareSize));
+
 }
 
-.square { 
+#squarespace > div{
     display:inline-block;
-    border: 2px solid black;
-    width: 40px;
-    height: 40px;
+    border: 3px solid black;
+    width: var(--squareSize);
+    height: var(--squareSize);
 }
+
