@@ -1,17 +1,16 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 .background{
     background-color: grey;
 }
-
-
 :root{
-    --rowNum: 16;
-    --colNum: 16;
-    --squareSize: 40px;
+    --row-num: 16;
+    --col-num: 16;
+    --square-size: 40px;
 }
 .title{
     text-align: center;
@@ -22,10 +21,10 @@
 }
 
 #squarespace{
-    
+
     display: grid;
-    grid-template-rows:repeat(var(--rowNum),var(--squareSize)); 
-    grid-template-columns:repeat(var(--colNum),var(--squareSize));
+    grid-template-rows:repeat(var(--row-num),var(--square-size)); 
+    grid-template-columns:repeat(var(--col-num),var(--square-size));
 
 }
 
